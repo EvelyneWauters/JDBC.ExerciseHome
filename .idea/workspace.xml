@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f893bfa6-53bd-464b-9642-ba72af8edf15" name="Default" comment="prepared statement &amp; batch">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ca/flixxi/M5Batch.java" />
-      <change type="MOVED" beforePath="C:\Users\daan\Dropbox\IntelliJ Workspace Home\0614 JDBC Oef Thuis\src\main\java\ca\flixxi\Main3PreparedStatement.java" afterPath="$PROJECT_DIR$/src/main/java/ca/flixxi/M4PreparedStatement.java" />
+    <list default="true" id="f893bfa6-53bd-464b-9642-ba72af8edf15" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ca/flixxi/exercise4/Book.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ca/flixxi/exercise4/BookDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ca/flixxi/exercise4/BookDaoJDBC.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ca/flixxi/exercise4/Category.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ca/flixxi/exercise4/Main.java" />
+      <change type="MOVED" beforePath="C:\Users\daan\Dropbox\IntelliJ Workspace Home\0614 JDBC Oef Thuis\src\main\java\ca\flixxi\Cat.java" afterPath="$PROJECT_DIR$/src/main/java/ca/flixxi/theoryRevision/Cat.java" />
+      <change type="MOVED" beforePath="C:\Users\daan\Dropbox\IntelliJ Workspace Home\0614 JDBC Oef Thuis\src\main\java\ca\flixxi\M1SimpleStatement.java" afterPath="$PROJECT_DIR$/src/main/java/ca/flixxi/theoryRevision/M1SimpleStatement.java" />
+      <change type="MOVED" beforePath="C:\Users\daan\Dropbox\IntelliJ Workspace Home\0614 JDBC Oef Thuis\src\main\java\ca\flixxi\M2StatementInList.java" afterPath="$PROJECT_DIR$/src/main/java/ca/flixxi/theoryRevision/M2StatementInList.java" />
+      <change type="MOVED" beforePath="C:\Users\daan\Dropbox\IntelliJ Workspace Home\0614 JDBC Oef Thuis\src\main\java\ca\flixxi\M3StatementExUpdate.java" afterPath="$PROJECT_DIR$/src/main/java/ca/flixxi/theoryRevision/M3StatementExUpdate.java" />
+      <change type="MOVED" beforePath="C:\Users\daan\Dropbox\IntelliJ Workspace Home\0614 JDBC Oef Thuis\src\main\java\ca\flixxi\M4PreparedStatement.java" afterPath="$PROJECT_DIR$/src/main/java/ca/flixxi/theoryRevision/M4PreparedStatement.java" />
+      <change type="MOVED" beforePath="C:\Users\daan\Dropbox\IntelliJ Workspace Home\0614 JDBC Oef Thuis\src\main\java\ca\flixxi\M5Batch.java" afterPath="$PROJECT_DIR$/src/main/java/ca/flixxi/theoryRevision/M5Batch.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="0614 JDBC Oef Thuis.iws" />
@@ -32,110 +42,88 @@
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="M1SimpleStatement.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ca/flixxi/M1SimpleStatement.java">
+      <file leaf-file-name="Book.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ca/flixxi/exercise4/Book.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+              <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1434277713571" expanded="true" signature="604:625" placeholder="select c fro..kitties..." />
+                <element signature="e#632#633#0" expanded="true" />
+                <element signature="e#657#658#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="M2StatementInList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ca/flixxi/M2StatementInList.java">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ca/flixxi/exercise4/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="80" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="80" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="M3StatementExUpdate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ca/flixxi/M3StatementExUpdate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1434286960797" expanded="true" signature="594:650" placeholder="insert into ..." />
-                <marker date="1434286960797" expanded="true" signature="684:716" placeholder="delete from ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="M4PreparedStatement.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ca/flixxi/M4PreparedStatement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-              <folding>
-                <marker date="1434302969596" expanded="true" signature="384:418" placeholder="select * fro..kitties..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="M5Batch.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ca/flixxi/M5Batch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6184486">
-              <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
-              <folding>
-                <marker date="1434302979238" expanded="true" signature="499:574" placeholder="insert into ..." />
-                <marker date="1434302979238" expanded="true" signature="738:768" placeholder="select * fro..kitties..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cat.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ca/flixxi/Cat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.60587">
+              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DriverManager.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/sql/DriverManager.java">
+      <file leaf-file-name="BookDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ca/flixxi/exercise4/BookDao.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="236" column="37" selection-start-line="235" selection-start-column="42" selection-end-line="236" selection-end-column="37" />
+              <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BookDaoJDBC.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ca/flixxi/exercise4/BookDaoJDBC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="153" column="39" selection-start-line="153" selection-start-column="39" selection-end-line="153" selection-end-column="39" />
               <folding>
-                <element signature="e#0#26959#0" expanded="false" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#2474#2480#0" expanded="true" />
+                <element signature="e#3638#3644#0" expanded="true" />
+                <marker date="1434307464212" expanded="true" signature="469:500" placeholder="select * fro..book..." />
+                <marker date="1434307464212" expanded="true" signature="1533:1566" placeholder="select * fro..book..." />
+                <marker date="1434307464212" expanded="true" signature="2636:2673" placeholder="select * fro..book..." />
+                <marker date="1434307464212" expanded="true" signature="3806:3824" placeholder="select * fro..book..." />
+                <marker date="1434307464212" expanded="true" signature="4798:4867" placeholder="insert into ..." />
+                <marker date="1434307464212" expanded="true" signature="4798:4890" placeholder="insert into ..." />
+                <marker date="1434307464212" expanded="true" signature="4798:4893" placeholder="insert into ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Category.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ca/flixxi/exercise4/Category.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+              <folding>
+                <element signature="e#253#254#0" expanded="true" />
+                <element signature="e#287#288#0" expanded="true" />
+                <element signature="e#347#348#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResultSet.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/sql/ResultSet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="4136" column="6" selection-start-line="4134" selection-start-column="25" selection-end-line="4136" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#207463#0" expanded="false" />
                 <element signature="imports" expanded="false" />
-                <element signature="e#4492#4493#0" expanded="false" />
-                <element signature="e#4528#4529#0" expanded="false" />
-                <element signature="e#17838#17839#0" expanded="false" />
-                <element signature="e#17876#17877#0" expanded="false" />
-                <element signature="e#18136#18137#0" expanded="false" />
-                <element signature="e#18173#18174#0" expanded="false" />
-                <element signature="e#19826#19827#0" expanded="false" />
-                <element signature="e#19858#19859#0" expanded="false" />
-                <element signature="e#21404#21405#0" expanded="false" />
-                <element signature="e#21485#21486#0" expanded="false" />
-                <element signature="e#26755#26756#0" expanded="false" />
-                <element signature="e#26795#26796#0" expanded="false" />
-                <element signature="e#26841#26842#0" expanded="false" />
-                <element signature="e#26901#26902#0" expanded="false" />
-                <element signature="e#26930#26931#0" expanded="false" />
-                <element signature="e#26955#26956#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -147,6 +135,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -162,7 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ca/flixxi/Kleurtje.java" />
         <option value="$PROJECT_DIR$/src/main/java/ca/flixxi/Kitties.java" />
         <option value="$PROJECT_DIR$/src/main/java/ca/flixxi/Cat.java" />
@@ -173,6 +161,13 @@
         <option value="$PROJECT_DIR$/src/main/java/ca/flixxi/Main3PreparedStatement.java" />
         <option value="$PROJECT_DIR$/src/main/java/ca/flixxi/Main4Batch.java" />
         <option value="$PROJECT_DIR$/src/main/java/ca/flixxi/M5Batch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/flixxi/exercise4/Book.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/flixxi/theoryRevision/M5Batch.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/flixxi/exercise4/BookDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/flixxi/exercise4/BookDaoJDBC.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/flixxi/exercise4/Category.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/flixxi/exercise4/Main.java" />
       </list>
     </option>
   </component>
@@ -224,9 +219,9 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -302,6 +297,40 @@
               <option name="myItemId" value="flixxi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theoryRevision" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="0614 JDBC Oef Thuis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="0614 JDBC Oef Thuis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flixxi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exercise4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -316,8 +345,15 @@
     <property name="FullScreen" value="false" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
   </component>
-  <component name="RunManager" selected="Application.M5Batch">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ca.flixxi.exercise4" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="M1SimpleStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -325,7 +361,7 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="ca.flixxi.M1SimpleStatement" />
+      <option name="MAIN_CLASS_NAME" value="ca.flixxi.theoryRevision.M1SimpleStatement" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -345,7 +381,7 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="ca.flixxi.M3StatementExUpdate" />
+      <option name="MAIN_CLASS_NAME" value="ca.flixxi.theoryRevision.M3StatementExUpdate" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -365,7 +401,7 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="ca.flixxi.M4PreparedStatement" />
+      <option name="MAIN_CLASS_NAME" value="ca.flixxi.theoryRevision.M4PreparedStatement" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -385,7 +421,27 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="ca.flixxi.M5Batch" />
+      <option name="MAIN_CLASS_NAME" value="ca.flixxi.theoryRevision.M5Batch" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="0614 JDBC Oef Thuis" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ca.flixxi.exercise4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ca.flixxi.exercise4.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -647,18 +703,20 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.M1SimpleStatement" />
       <item index="1" class="java.lang.String" itemvalue="Application.M3StatementExUpdate" />
       <item index="2" class="java.lang.String" itemvalue="Application.M4PreparedStatement" />
       <item index="3" class="java.lang.String" itemvalue="Application.M5Batch" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Main" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.M5Batch" />
-        <item index="1" class="java.lang.String" itemvalue="Application.M4PreparedStatement" />
-        <item index="2" class="java.lang.String" itemvalue="Application.M3StatementExUpdate" />
-        <item index="3" class="java.lang.String" itemvalue="Application.M1SimpleStatement" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="Application.M5Batch" />
+        <item index="2" class="java.lang.String" itemvalue="Application.M4PreparedStatement" />
+        <item index="3" class="java.lang.String" itemvalue="Application.M3StatementExUpdate" />
+        <item index="4" class="java.lang.String" itemvalue="Application.M1SimpleStatement" />
       </list>
     </recent_temporary>
   </component>
@@ -675,7 +733,8 @@
       <workItem from="1434215684160" duration="4395000" />
       <workItem from="1434277149021" duration="1085000" />
       <workItem from="1434280916841" duration="1939000" />
-      <workItem from="1434283503268" duration="5947000" />
+      <workItem from="1434283503268" duration="8921000" />
+      <workItem from="1434306054419" duration="2182000" />
     </task>
     <task id="LOCAL-00001" summary="second commit">
       <created>1434285719445</created>
@@ -689,11 +748,17 @@
       <option name="project" value="LOCAL" />
       <updated>1434288295458</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="prepared statement &amp; batch">
+      <created>1434303063445</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1434303063445</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13366000" />
+    <option name="totallyTimeSpent" value="18522000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
@@ -701,7 +766,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32847682" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3271523" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -710,7 +775,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33112583" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3218543" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15745501" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21722364" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -739,7 +804,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="second commit" />
     <MESSAGE value="prepared statement added" />
-    <option name="LAST_COMMIT_MESSAGE" value="prepared statement added" />
+    <MESSAGE value="prepared statement &amp; batch" />
+    <option name="LAST_COMMIT_MESSAGE" value="prepared statement &amp; batch" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -753,49 +819,114 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/flixxi/M1SimpleStatement.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/flixxi/exercise4/Book.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="60" selection-start-line="10" selection-start-column="7" selection-end-line="12" selection-end-column="60" />
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1434277713571" expanded="true" signature="604:625" placeholder="select c fro..kitties..." />
+            <element signature="e#632#633#0" expanded="true" />
+            <element signature="e#657#658#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/flixxi/M2StatementInList.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/flixxi/theoryRevision/M1SimpleStatement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="80" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="80" />
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1434303282583" expanded="true" signature="-1:-1" placeholder="select * fro..kitties..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/flixxi/M3StatementExUpdate.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/flixxi/exercise4/BookDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/flixxi/exercise4/BookDaoJDBC.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1434286960797" expanded="true" signature="594:650" placeholder="insert into ..." />
-            <marker date="1434286960797" expanded="true" signature="684:716" placeholder="delete from ..." />
+            <element signature="e#2474#2480#0" expanded="true" />
+            <element signature="e#3638#3644#0" expanded="true" />
+            <marker date="1434307464212" expanded="true" signature="469:500" placeholder="select * fro..book..." />
+            <marker date="1434307464212" expanded="true" signature="1533:1566" placeholder="select * fro..book..." />
+            <marker date="1434307464212" expanded="true" signature="2636:2673" placeholder="select * fro..book..." />
+            <marker date="1434307464212" expanded="true" signature="3806:3824" placeholder="select * fro..book..." />
+            <marker date="1434307464212" expanded="true" signature="4798:4867" placeholder="insert into ..." />
+            <marker date="1434307464212" expanded="true" signature="4798:4890" placeholder="insert into ..." />
+            <marker date="1434307464212" expanded="true" signature="4798:4893" placeholder="insert into ..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/flixxi/Cat.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/sql/ResultSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4136" column="6" selection-start-line="4134" selection-start-column="25" selection-end-line="4136" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#207463#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/flixxi/theoryRevision/M1SimpleStatement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="60" selection-start-line="10" selection-start-column="7" selection-end-line="12" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1434303282583" expanded="true" signature="-1:-1" placeholder="select * fro..kitties..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/flixxi/theoryRevision/M2StatementInList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="80" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/flixxi/theoryRevision/M3StatementExUpdate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/flixxi/theoryRevision/Cat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -834,44 +965,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/flixxi/M1SimpleStatement.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/flixxi/theoryRevision/M1SimpleStatement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="60" selection-start-line="10" selection-start-column="7" selection-end-line="12" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1434277713571" expanded="true" signature="604:625" placeholder="select c fro..kitties..." />
+            <marker date="1434303282583" expanded="true" signature="-1:-1" placeholder="select * fro..kitties..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/flixxi/M2StatementInList.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/flixxi/theoryRevision/M2StatementInList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="80" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="80" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/flixxi/M3StatementExUpdate.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/flixxi/theoryRevision/M3StatementExUpdate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1434286960797" expanded="true" signature="594:650" placeholder="insert into ..." />
-            <marker date="1434286960797" expanded="true" signature="684:716" placeholder="delete from ..." />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/flixxi/Cat.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/flixxi/theoryRevision/Cat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -910,22 +1038,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/flixxi/M1SimpleStatement.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/flixxi/theoryRevision/M1SimpleStatement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1434277713571" expanded="true" signature="604:625" placeholder="select c fro..kitties..." />
+            <marker date="1434303282583" expanded="true" signature="-1:-1" placeholder="select * fro..kitties..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/flixxi/Cat.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/flixxi/theoryRevision/Cat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -963,14 +1090,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/sql/DriverManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -998,65 +1117,134 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/flixxi/Cat.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/flixxi/theoryRevision/Cat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/flixxi/M2StatementInList.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/flixxi/theoryRevision/M2StatementInList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="80" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="80" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/flixxi/M1SimpleStatement.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/flixxi/theoryRevision/M3StatementExUpdate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/flixxi/theoryRevision/M5Batch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.17819707">
+          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/flixxi/theoryRevision/M4PreparedStatement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46331236">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/sql/ResultSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4136" column="6" selection-start-line="4134" selection-start-column="25" selection-end-line="4136" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#207463#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/flixxi/exercise4/BookDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/flixxi/exercise4/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+          <folding>
+            <element signature="e#632#633#0" expanded="true" />
+            <element signature="e#657#658#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/flixxi/theoryRevision/M1SimpleStatement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1434277713571" expanded="true" signature="604:625" placeholder="select c fro..kitties..." />
+            <marker date="1434303282583" expanded="true" signature="-1:-1" placeholder="select * fro..kitties..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/flixxi/M3StatementExUpdate.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/flixxi/exercise4/Category.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding>
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/flixxi/exercise4/BookDaoJDBC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="153" column="39" selection-start-line="153" selection-start-column="39" selection-end-line="153" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1434286960797" expanded="true" signature="594:650" placeholder="insert into ..." />
-            <marker date="1434286960797" expanded="true" signature="684:716" placeholder="delete from ..." />
+            <element signature="e#2474#2480#0" expanded="true" />
+            <element signature="e#3638#3644#0" expanded="true" />
+            <marker date="1434307464212" expanded="true" signature="469:500" placeholder="select * fro..book..." />
+            <marker date="1434307464212" expanded="true" signature="1533:1566" placeholder="select * fro..book..." />
+            <marker date="1434307464212" expanded="true" signature="2636:2673" placeholder="select * fro..book..." />
+            <marker date="1434307464212" expanded="true" signature="3806:3824" placeholder="select * fro..book..." />
+            <marker date="1434307464212" expanded="true" signature="4798:4867" placeholder="insert into ..." />
+            <marker date="1434307464212" expanded="true" signature="4798:4890" placeholder="insert into ..." />
+            <marker date="1434307464212" expanded="true" signature="4798:4893" placeholder="insert into ..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/flixxi/M4PreparedStatement.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/flixxi/exercise4/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-          <folding>
-            <marker date="1434302969596" expanded="true" signature="384:418" placeholder="select * fro..kitties..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/flixxi/M5Batch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6184486">
-          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
-          <folding>
-            <marker date="1434302979238" expanded="true" signature="499:574" placeholder="insert into ..." />
-            <marker date="1434302979238" expanded="true" signature="738:768" placeholder="select * fro..kitties..." />
-          </folding>
+        <state vertical-scroll-proportion="0.60587">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>

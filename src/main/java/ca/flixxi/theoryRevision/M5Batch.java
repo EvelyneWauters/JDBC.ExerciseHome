@@ -1,4 +1,4 @@
-package ca.flixxi;
+package ca.flixxi.theoryRevision;
 
 import java.sql.*;
 
@@ -8,6 +8,7 @@ import java.sql.*;
 public class M5Batch {
     public static void main(String[] args) {
         Connection c = null;
+        PreparedStatement pst = null;
 
         try {
             c = DriverManager.getConnection("jdbc:mysql://localhost:3306/kitsies", "root", "root");
@@ -16,7 +17,7 @@ public class M5Batch {
             } catch (SQLException e) {
                 e.printStackTrace();
             }
-            PreparedStatement pst = c.prepareStatement("insert into kitties (id, name, age, color) values (?,'Sookie',1,'sealpoint' ");     //deze input wordt niet toegevoegd?
+            pst = c.prepareStatement("insert into kitties (id, name, age, color) values (?,'Sookie',1,'sealpoint' ");     //deze input wordt niet toegevoegd?
             pst.setInt(1,8);
            Statement st = c.createStatement();
            ResultSet rs = st.executeQuery("select name,color from kitties");
@@ -31,6 +32,7 @@ public class M5Batch {
             if (c != null)  {
                 try {
                     c.close();
+                    pst.close();
                 } catch (SQLException e) {
                     e.printStackTrace();
                 }

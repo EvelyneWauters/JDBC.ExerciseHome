@@ -1,4 +1,4 @@
-package ca.flixxi;
+package ca.flixxi.theoryRevision;
 
 /**
  * Created by Flyne on 13/06/2015.

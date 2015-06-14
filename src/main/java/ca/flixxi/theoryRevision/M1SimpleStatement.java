@@ -1,4 +1,4 @@
-package ca.flixxi;
+package ca.flixxi.theoryRevision;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
