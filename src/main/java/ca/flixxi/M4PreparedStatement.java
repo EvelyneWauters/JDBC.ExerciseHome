@@ -5,7 +5,7 @@ import java.sql.*;
 /**
  * Created by Flyne on 14/06/2015.
  */
-public class Main3PreparedStatement {
+public class M4PreparedStatement {
     public static void main(String[] args) {
         Connection c = null;
         PreparedStatement pstmt = null;
