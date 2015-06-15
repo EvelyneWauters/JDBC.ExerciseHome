@@ -14,7 +14,7 @@ public class BookDaoJDBC implements BookDao {
         PreparedStatement pst = null;
         Book b = null;
         try {
-            c = DriverManager.getConnection("jdbc:mysql://localhost:3306/Kitsies", "root", "root");
+            c = DriverManager.getConnection("jdbc:mysql://localhost:3306/Kitsies", "root", "");
             pst = c.prepareStatement("select * from book where id = ?");
             pst.setInt(1,(int)id);
             pst.execute();
@@ -23,7 +23,7 @@ public class BookDaoJDBC implements BookDao {
                     rs.getString("isbn"),
                     rs.getString("author"),
                     rs.getString("publisher"),
-                    (Category)rs.getObject("category"),
+                    Category.findCategorybyLabel(rs.getString("category")),
                     rs.getInt("pages"),
                     rs.getInt("price") );
 
@@ -46,7 +46,7 @@ public class BookDaoJDBC implements BookDao {
         PreparedStatement pst = null;
         Book b = null;
         try {
-            c = DriverManager.getConnection("jdbc:mysql://localhost:3306/Kitsies", "root", "root");
+            c = DriverManager.getConnection("jdbc:mysql://localhost:3306/Kitsies", "root", "");
             pst = c.prepareStatement("select * from book where isbn = ?");
             pst.setString(1,isbn);
             pst.execute();
@@ -55,7 +55,7 @@ public class BookDaoJDBC implements BookDao {
                     rs.getString("isbn"),
                     rs.getString("author"),
                     rs.getString("publisher"),
-                    (Category)rs.getObject("category"),
+                    Category.findCategorybyLabel(rs.getString("category")),
                     rs.getInt("pages"),
                     rs.getInt("price") );
 
@@ -79,9 +79,9 @@ public class BookDaoJDBC implements BookDao {
         PreparedStatement pst = null;
         List<Book> b = new ArrayList<Book>();
         try {
-            c = DriverManager.getConnection("jdbc:mysql://localhost:3306/Kitsies", "root", "root");
+            c = DriverManager.getConnection("jdbc:mysql://localhost:3306/Kitsies", "root", "");
             pst = c.prepareStatement("select * from book where category = ?");
-            pst.setObject(1, category);
+            pst.setObject(1, category.getLabel());
             pst.execute();
             ResultSet rs = pst.getResultSet();
             while(rs.next()) {
@@ -89,7 +89,7 @@ public class BookDaoJDBC implements BookDao {
                         rs.getString("isbn"),
                         rs.getString("author"),
                         rs.getString("publisher"),
-                        (Category) rs.getObject("category"),
+                        Category.findCategorybyLabel(rs.getString("category")),
                         rs.getInt("pages"),
                         rs.getInt("price")));
             }
@@ -113,14 +113,15 @@ public class BookDaoJDBC implements BookDao {
         Statement st = null;
         List<Book> b = new ArrayList<Book>();
         try {
-            c = DriverManager.getConnection("jdbc:mysql://localhost:3306/Kitsies", "root", "root");
+            c = DriverManager.getConnection("jdbc:mysql://localhost:3306/Kitsies", "root", "");
+            st = c.createStatement();
             ResultSet rs = st.executeQuery("select * from book");
             while(rs.next()) {
                 b.add(new Book(rs.getInt("id"),
                         rs.getString("isbn"),
                         rs.getString("author"),
                         rs.getString("publisher"),
-                        (Category) rs.getObject("category"),
+                        Category.findCategorybyLabel(rs.getString("category")),
                         rs.getInt("pages"),
                         rs.getInt("price")));
             }
@@ -143,7 +144,7 @@ public class BookDaoJDBC implements BookDao {
         Connection c = null;
         PreparedStatement pst = null;
         try {
-            c = DriverManager.getConnection("jdbc:mysql://localhost:3306/Kitsies", "root", "root");
+            c = DriverManager.getConnection("jdbc:mysql://localhost:3306/Kitsies", "root", "");
             pst = c.prepareStatement("insert into book (id,isbn, author, publisher, category, pages, price) values (?,?,?,?,?,?,?)");
             pst.setInt(1,b.getId());
             pst.setString(2,b.getIsbn());
@@ -175,5 +176,27 @@ public class BookDaoJDBC implements BookDao {
 
     public void deleteBook(Book b) {
 
+    }
+
+    @Override
+    public void deleteAllBooks() {
+        Connection c = null;
+
+        try {
+            c = DriverManager.getConnection("jdbc:mysql://localhost:3306/kitsies", "root", "");
+            Statement st = c.createStatement();
+            st.executeUpdate("truncate book");
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } finally   {
+            if (c != null)  {
+                try {
+                    c.close();
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
     }
 }
